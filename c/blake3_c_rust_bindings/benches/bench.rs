@@ -9,7 +9,6 @@ use test::Bencher;
 
 const KIB: usize = 1024;
 const MAX_SIMD_DEGREE: usize = 16;
-
 const BLOCK_LEN: usize = 64;
 const CHUNK_LEN: usize = 1024;
 const OUT_LEN: usize = 32;
